@@ -41,7 +41,7 @@
                         </div>
                         <div class="comment_details">
                             <p class="author"><?php comment_author_link($comment->comment_ID) ?></p>
-                            <p class="date"><?php comment_date('F j, Y',$comment->comment_ID) ?></p>
+                            <p class="date"><?php comment_date('M j, Y',$comment->comment_ID) ?></p>
                             <!--<p class="date"><?php //comment_time('h:i:s',$comment->comment_ID) ?></p>-->
                         </div>
                     </div>

@@ -209,7 +209,65 @@ $(document).ready(function () {
 });
 
 /*
- * JQuery for CDS sidebar menu
+ * JQuery for FAQ page
+ */
+$(document).ready( function() {
+	$('.q1_link').click( function () {
+		$.scrollTo($('#q1'),1000);
+	});
+	$('.q2_link').click( function () {
+		$.scrollTo($('#q2'),1000);
+	});
+	$('.q3_link').click( function () {
+		$.scrollTo($('#q3'),1000);
+	});
+
+	$('.q4_link').click( function () {
+		$.scrollTo($('#q4'),1000);
+	});
+
+	$('.q5_link').click( function () {
+		$.scrollTo($('#q5'),1000);
+	});
+
+	$('.q6_link').click( function () {
+		$.scrollTo($('#q6'),1000);
+	});
+
+	$('.q7_link').click( function () {
+		$.scrollTo($('#q7'),1000);
+	});
+
+	$('.q8_link').click( function () {
+		$.scrollTo($('#q8'),1000);
+	});
+
+	$('.q9_link').click( function () {
+		$.scrollTo($('#q9'),1000);
+	});
+
+	$('.q10_link').click( function () {
+		$.scrollTo($('#q10'),1000);
+	});
+
+	$('.q11_link').click( function () {
+		$.scrollTo($('#q11'),1000);
+	});
+
+	$('.q12_link').click( function () {
+		$.scrollTo($('#q12'),1000);
+	});
+
+	$('.q13_link').click( function () {
+		$.scrollTo($('#q13'),1000);
+	});
+	
+	$('.top_faq').click( function () {
+		$.scrollTo($('#policy'),1000);
+	});
+});
+/*
+ * JQuery for CDC sidebar menu
  */
 $(document).ready( function() {
 	$('#concise_schedule').click(function() {
@@ -220,7 +278,7 @@ $(document).ready( function() {
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/concise_schedule.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/concise_schedule.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -234,11 +292,11 @@ $(document).ready( function() {
 	  $('.cds_info_wrapper')
 	      .empty()
 		  .animate({
-			height: '3870px'
+			height: '460px'// '3870px'
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/detailed_schedule.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/detailed_schedule.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -283,7 +341,7 @@ $(document).ready( function() {
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/registration.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/registration.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -295,7 +353,7 @@ $(document).ready( function() {
 	  // Adjust height for Firefox quirk
 	  var firefox=/Firefox/i;
 	  var ie=/MSIE/i;
-	  var canvas_height = ( firefox.test(navigator.userAgent) || ie.test(navigator.userAgent) ) ? '5069px' : '4951px';
+	  var canvas_height = ( firefox.test(navigator.userAgent) || ie.test(navigator.userAgent) ) ? '2855px' : '2796px'; /*'5069px' : '4951px';*/
 	  $('.cds_info_wrapper')
 		  .empty()
 		  .animate({
@@ -303,7 +361,7 @@ $(document).ready( function() {
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/officials.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/officials.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -323,7 +381,7 @@ $(document).ready( function() {
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/rules.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/rules.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -381,7 +439,7 @@ $(document).ready( function() {
 		  }, 700, function() {
 			// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/housing.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/housing.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -407,7 +465,7 @@ $(document).ready( function() {
 	  }, 700, function() {
 		// Animation complete.
 			$.ajax({
-			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc2011/sponsors.html',
+			  url: 'http://'+document.domain+'/wp-content/themes/charlotte_dancesport/cdc/sponsors.html',
 			  dataType: "html",
 			  success: function(data) {
 				$('.cds_info_wrapper').html(data);
@@ -438,7 +496,7 @@ $(document).ready( function() {
 			height: '1020px'
 		  }, 700, function() {
 			// Animation complete.
-			$('.cds_info_wrapper').append("<iframe src='http://"+document.domain+"/wp-content/themes/charlotte_dancesport/cdc2011/dance_location.html' frameborder='0' scrolling='yes' style='width:673px; height:1020px; border:0px;' >");
+			$('.cds_info_wrapper').append("<iframe src='http://"+document.domain+"/wp-content/themes/charlotte_dancesport/cdc/dance_location.html' frameborder='0' scrolling='yes' style='width:673px; height:1020px; border:0px;' >");
 		});
 	});
 	
@@ -529,6 +587,14 @@ $(document).ready(function () {
 		}, 
 		function () {
 			$('#dances_nav div').removeClass('page_arrow').addClass('hidden');
+		}						 
+	);
+	$('#faq_nav').hover(
+		function () {
+			$('#faq_nav div').removeClass('hidden').addClass('page_arrow');
+		}, 
+		function () {
+			$('#faq_nav div').removeClass('page_arrow').addClass('hidden');
 		}						 
 	);
 	$('#scrapbook_nav').hover(

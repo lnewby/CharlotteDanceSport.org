@@ -55,7 +55,7 @@ if ($iPhone == true || $iPod == true || $Android == true)  {
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.abetterform-min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.autofill-min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/colorbox/jquery.colorbox-min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
-<? if( is_page('cdc') ) { ?>
+<? if( is_page('cdc') || is_page('faq') ) { ?>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.scrollTo-1.4.2-min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
 <? } ?>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.tools.min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
@@ -107,8 +107,8 @@ function ajax_update_alert(color,description)
 	httpxml.send(null);
 }
 </script>
-<!--script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/functions.js<? //echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script-->
-<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/functions-min.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/functions.js<? //echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
+<!--script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/functions-min.js<? //echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script-->
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
@@ -409,7 +409,7 @@ $(function(){
     </script>
 
         <!-- GTranslate: http://edo.webmaster.am/gtranslate -->
-        <span class="notranslate">
+        <!--span class="notranslate">
         <select onchange="doGTranslate(this);" class="gtranslate_select" id="gtranslate_select">
             <option value="" selected="selected">Select Language</option>
             <option value="en|sq">Albanian</option>
@@ -441,7 +441,7 @@ $(function(){
             <option value="en|uk">Ukrainian</option>
             <option value="en|vi">Vietnamese</option>
         </select>
-        </span>
+        </span-->
         <script type="text/javascript" src="<?php echo thisURL(); ?>/wp-content/plugins/gtranslate/jquery-translate.js<? echo ($Safari || $IE5 || $IE6) ? "" : ".gz"; ?>"></script>
         <script type="text/javascript">
         /**
@@ -476,7 +476,7 @@ $(function(){
         
         <? } ?>
         
-        <div id="gtranslate_list" class="dropdown"></div>
+        <!--div id="gtranslate_list" class="dropdown"></div-->
         
     </li>
     <!--li style="float:right; width:1024px;">
@@ -506,7 +506,7 @@ $(function(){
     	<span class="<? echo ( is_page('cdc') ) ? "cdc_logo" : "cds_logo"; ?>" id="cds_logo"></span>
         <div class="cds_logo_text" <? if( is_page('cdc') ) echo 'style="width:650px; font-size:.9em; margin:10px 0 0 135px;"'; ?>>
 			<!--<div class="floating_edit_button" style=" position:absolute; top:55px; left: 400px;"><input type="button" value="Edit" name="Edit" class="logo_text_editor" /></div>-->
-            <h1><a href="<?php echo thisURL(); ?>/<? if( is_page('cdc') ) {echo "cdc/";} ?>" class="notranslate"><?php bloginfo('name'); if( is_page('cdc') ) {echo " Challenge 2011";} ?></a></h1>
+            <h1><a href="<?php echo thisURL(); ?>/<? if( is_page('cdc') ) {echo "cdc/";} ?>" class="notranslate"><?php bloginfo('name'); if( is_page('cdc') ) {echo " Challenge 2012";} ?></a></h1>
             <? if( !is_page('cdc') ) { ?><div class="description"><?php bloginfo('description'); ?></div><? } ?>
         </div>            
 	</div>
@@ -521,7 +521,7 @@ $(function(){
         </div>
     	<a href="<?php echo thisURL(); ?>/<? if( is_page('cdc') ) {echo "cdc/";} ?>" title="Charlotte DanceSport"><span class="<? echo ( is_page('cdc') ) ? "cdc_logo" : "cds_logo"; ?>"></span></a>
          <div class="cds_logo_text" <? if( is_page('cdc') ) echo 'style="width:650px; font-size:.9em; margin:10px 0 0 135px;"'; ?>>
-            <h1><a href="<?php echo thisURL(); ?>/<? if( is_page('cdc') ) {echo "cdc/";} ?>" class="notranslate"><?php bloginfo('name'); if( is_page('cdc') ) {echo " Challenge 2011";} ?></a></h1>
+            <h1><a href="<?php echo thisURL(); ?>/<? if( is_page('cdc') ) {echo "cdc/";} ?>" class="notranslate"><?php bloginfo('name'); if( is_page('cdc') ) {echo " Challenge 2012";} ?></a></h1>
             <? if( !is_page('cdc') ) { ?><div class="description"><?php bloginfo('description'); ?></div><? } ?>
         </div>            
 	</div>
@@ -539,13 +539,13 @@ $(function(){
         <ul>
         <li id="cds_nav"><a href="<?php echo thisURL(); ?>/" title="CDS Home">CDS</a><div class="hidden"><small>▲</small></div></li> 
         <li id="schedule_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=concise" title="Schedule">Schedule</a><div class="hidden"><small>▲</small></div></li> 
-        <li id="registration_nav"><a href="http://www.o2cm.com/forms/entry.asp?event=chd" title="Registration" target="_blank">Registration</a><div class="hidden"><small>▲</small></div></li>
+        <li id="registration_nav"><!--a href="http://www.o2cm.com/forms/entry.asp?event=chd" title="Registration" target="_blank"-->Registration<!--/a><div class="hidden"><small>▲</small></div--></li>
         <li id="officials_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=officials" title="Officials">Officials</a><div class="hidden"><small>▲</small></div></li>
         <li id="rules_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=rules_fees" title="Fees & Rules">Fees &amp; Rules</a><div class="hidden"><small>▲</small></div></li>
         <li id="housing_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=housing" title="Housing">Housing</a><div class="hidden"><small>▲</small></div></li>
         <li id="sponsors_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=sponsors" title="Sponsors">Sponsors</a><div class="hidden"><small>▲</small></div></li>
         <li id="location_nav"><a href="<?php echo thisURL(); ?>/cdc/?p=dance_locations" title="Dance Locations">Location</a><div class="hidden"><small>▲</small></div></li>
-        <li id="cdc_nav"><a href="<?php echo thisURL(); ?>/cdc/" title="Charlotte DanceSport Challenge">CDC 2011</a><div class="hidden"><small>▲</small></div></li> 
+        <li id="cdc_nav"><a href="<?php echo thisURL(); ?>/cdc/" title="Charlotte DanceSport Challenge">CDC <? echo date('Y'); ?></a><div class="hidden"><small>▲</small></div></li> 
         </ul>
         
     <?php } else { ?>
@@ -559,7 +559,8 @@ $(function(){
         <li <?php if ( !is_page('calendar') ) { echo 'id="calendar_nav"'; ?>><a href="<?php echo thisURL(); ?>/calendar/" title="Calendar">Calendar</a><?php } else { ?>>Calendar<?php } ?><div <?php echo ( is_page('calendar') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li> 
         <li <?php if ( !is_page('coaches') ) { echo 'id="coaches_nav"'; ?>><a href="<?php echo thisURL(); ?>/coaches/" title="Coaches">Coaches</a><?php } else { ?>>Coaches<?php } ?><div <?php echo ( is_page('coaches') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li>
         <li <?php if ( !is_page('dances') ) { echo 'id="dances_nav"'; ?>><a href="<?php echo thisURL(); ?>/dances/" title="Dances Taught">Dances Taught</a><?php } else { ?>>Dances Taught<?php } ?><div <?php echo ( is_page('dances') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li>
-        <li <?php if ( !is_page('cdc') ) { echo 'id="cdc_nav"'; ?>><a href="<?php echo thisURL(); ?>/cdc/" title="Charlotte DanceSport Challenge">CDC 2011</a><?php } else { ?>>CDC 2011<?php } ?><div <?php echo ( is_page('cdc') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li> 
+        <li <?php if ( !is_page('cdc') ) { echo 'id="cdc_nav"'; ?>><a href="<?php echo thisURL(); ?>/cdc/" title="Charlotte DanceSport Challenge">CDC <? echo date('Y'); ?></a><?php } else { ?>>CDC <? echo date('Y'); } ?><div <?php echo ( is_page('cdc') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li>
+        <li <?php if ( !is_page('faq') ) { echo 'id="faq_nav"'; ?>><a href="<?php echo thisURL(); ?>/faq/" title="FAQ">FAQ</a><?php } else { ?>>FAQ<?php } ?><div <?php echo ( is_page('faq') ) ? 'class="page_arrow"' : 'class="hidden"'; ?>><small>▲</small></div></li>
 <?php /* Commented out for Initial launch.  Will add in future as NEW! features */
 
 if ( $user['is_admin'] ) { ?>

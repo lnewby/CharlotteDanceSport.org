@@ -102,7 +102,7 @@ if ($browser == true)  {
                         <div class="date_wrapper">
                             <div class="post_day"><?php the_time('j') ?></div>
                             <div class="month_day_wrapper">
-                                <div class="post_month"><?php the_time('F') ?></div>
+                                <div class="post_month"><?php the_time('M') ?></div>
                                 <div class="post_year"><?php the_time('Y') ?></div>
                             </div>
                         </div>

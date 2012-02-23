@@ -19,8 +19,36 @@ $(document).ready(function() {
 else : */
 ?>
 
+<div class="post">
+    <div class="post_details">
+        <div class="post_details_wrapper">
+            <div class="date_wrapper">
+                <div class="post_day">23</div>
+                <div class="month_day_wrapper">
+                    <div class="post_month">Jan</div>
+                    <div class="post_year">2012</div>
+                </div>
+            </div>
+            <div>
+                <p class="post_by">Posted by:</p>
+                <p class="post_author">Charlotte DanceSport</p>
+            </div>
+        </div>
+    </div>
+    <div class="white_left_arrow"></div>
+    <div class="entry">
+        <div class="entry_wrapper">
+        <!-- ADD POST CONTENT HERE -->
+        
+          <div class="cdc2011_flyer" style="width:430px;"></div>
+        
+        <!-- END CONTENT ADDITION -->
+        </div>
+        
+    </div>
+</div> 
 
-
+<?php /*
 <div class="post">
     <div class="post_details">
         <div class="post_details_wrapper">
@@ -227,7 +255,7 @@ else : */
         
     </div>
 </div>        
-
+*/ ?>
 <?php //endif; ?>       
 
 </div>

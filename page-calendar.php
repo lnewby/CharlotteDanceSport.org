@@ -79,108 +79,113 @@ $(document).ready(function(){
             </div>
 <!--
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/16</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* Open Practice - Martin Luther King, Jr. holiday weekend.*</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/08</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* Open Practice in Lucas Room *</span></div>
             </div>
-
+            
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/23</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/15</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - MLK Holiday Weekend. *</span></div>
+            </div>
+            <div class="quick_view_row">
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/22</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Swing</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz/Quickstep & Rumba/Cha Cha">Waltz/Q &amp; Rumba/C</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot/Tango & Samba/Jive">Foxtrot/T &amp; Samba/J</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/30</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">1/29</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Swing</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz/Quickstep & Rumba/Cha Cha">Waltz/Q &amp; Rumba/C</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot/Tango & Samba/Jive">Foxtrot/T &amp; Samba/J</span></div>
+            </div>
+            <div class="quick_view_row">
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/05</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot/Tango & Samba/Jive">Foxtrot/T &amp; Samba/J</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz/Quickstep & Rumba/Cha Cha">Waltz/Q &amp; Rumba/C</span></div>
+                
             </div>
+-->
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/06</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - Super Bowl</span></div>
-            </div>
-
-            <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/13</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/12</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot/Tango & Samba/Jive">Foxtrot/T &amp; Samba/J</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz/Quickstep & Rumba/Cha Cha">Waltz/Q &amp; Rumba/C</span></div>
+                
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/20</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Comp Review</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/19</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Foxtrot</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot & Cha Cha">Foxtrot &amp; Cha Cha</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Quickstep & Rumba">Quickstep &amp; Rumba</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/27</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - <a href="<? //echo (isset($_SERVER['HTTPS'])) ? "https" : "http"; ?>://www.triangleopen.org/" target="_blank">Triangle Open Championship 2011</a> *</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">2/26</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons *</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/06</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - Spring Break</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/04</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons *</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/13</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Samba</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz & Rumba/Cha Cha">Waltz &amp; Rumba/C</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Quickstep &amp; Jive</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/11</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - Spring Break. *</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/20</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Samba</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Waltz </span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Quickstep & Samba">Quickstep &amp; Samb</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot & Rumba/Cha Cha">Fox &amp; Rumba/C</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/18</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Rumba/Cha Cha</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Foxtrot</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Quickstep & Rumba">Quickstep &amp; Rumba</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Tango & Samba">Tango &amp; Samba</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/27</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">3/25</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Tango</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Samba</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot/Tango & Jive">Fox/Tango &amp; Jive</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Waltz/Tango & Samba">Waltz/T &amp; Samb</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Swing</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Quickstep & Rumba">Quickstep &amp; Rumba</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Tango & Samba">Tango &amp; Samba</span></div>
             </div>
-
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/03</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/01</span></div>
                 <div class="quick_view_col"><span style="margin-left: 10px;">Tango</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Samba</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Swing</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Viennese Waltz">Viennese Waltz</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Paso Doble">Paso Doble</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/10</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Quickstep</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">Comp Review</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">Open Practice</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/08</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - Spring Weekend. *</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/17</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - Charlotte DanceSport Challenge 2011 *</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/15</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* No Lessons - <a href="<? echo (isset($_SERVER['HTTPS'])) ? "https" : "http"; ?>://www.charlottedancesport.com/cdc" target="_blank">Charlotte DanceSport Challenge 2012</a> *</span></div>
             </div>
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/24</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* Easter - Lessons TBD *</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/22</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Hustle</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Tango</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Viennese Waltz">Viennese Waltz</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Paso Doble">Paso Doble</span></div>
             </div>
-    
             <div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">5/01</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">No Lesson</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;">No Lesson</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">3-4pm w/ Marie</span></div>
-                <div class="quick_view_col"><span style="margin-left: 10px;" title="Open Practice w/ Rounds">2-3pm w/ Wayne</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">4/29</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Hustle</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;">Tango</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Tango & Samba">Tango &amp; Samba</span></div>
+                <div class="quick_view_col"><span style="margin-left: 10px;" title="Foxtrot & Cha Cha">Foxtrot &amp; Cha Cha</span></div>
             </div>
-      -->
+            
       		<div class="quick_view_row">
-            	<div class="quick_view_date_col"><span style="margin-left: 10px;">-/--</span></div>
-                <div class="no_lessons_row"><span style="margin-left: 10px;">* NO LESSONS - Please check back for updates *</span></div>
+            	<div class="quick_view_date_col"><span style="margin-left: 10px;">5/06</span></div>
+                <div class="no_lessons_row"><span style="margin-left: 10px;">* NO LESSONS - Fall Exams *</span></div>
             </div>
+ 
         </div>
         
 <?php } ?>

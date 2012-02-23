@@ -85,6 +85,32 @@
             <div class="sidebar_divider"></div>
             <?php } ?>
             
+            <li id="mailing_list"><div>
+            <!-- Google Groups Mailing List Subscription Widget -->
+                <table border=0 style="background-color: #cae3b4; padding: 5px;" cellspacing=0>
+                  <tr><td>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/img/groups_logo_sm.gif"
+                         height=30 width=140 alt="Google Groups">
+                  </td></tr>
+                  <tr><td style="padding-left: 5px">
+                  <b>Subscribe to Charlotte DanceSport</b>
+                  </td></tr>
+                  <form action="http://groups.google.com/group/charlottedancesport/boxsubscribe">
+                  <input type=hidden name="hl" value="en">
+                  <tr><td style="padding-left: 5px;">
+                  Email: <input type=text name=email>
+                  <input type=submit name="sub" value="Subscribe">
+                  </td></tr>
+                </form>
+                <tr><td align=right>
+                  <a href="http://groups.google.com/group/charlottedancesport?hl=en">Visit this group</a>
+                </td></tr>
+                </table>
+            <!-- Google Groups Mialing List Ends -->
+            </div></li>
+            
+            <div class="sidebar_divider" style="margin-top:8px"></div>
+            
             <li id="about_cds"><h2>About CDS</h2>
                 <ul>
                 	<li class="membership_dues"><a>Membership Dues</a></li>

@@ -369,7 +369,10 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	width: 85px;
 	float: left;
 	}
-
+#mailing_list div{
+	margin-left: 15px;
+	width: 253px;
+}
 
 .commentlist li, .commentform input, .commentform textarea {
 	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -1305,7 +1308,12 @@ select {
 	height: 100%;
 	float: left;
 	}
-
+.bio .dan_img {
+	background: url('img/dan_calloway.jpg') no-repeat 0 0;
+	width: 99px;
+	height: 152px;
+	margin: 8px 0 8px 8px;
+	}
 .bio .wayne_img {
 	background: url('img/wayne_crowder.jpg') no-repeat 0 0;
 	width: 99px;
@@ -2733,10 +2741,10 @@ right:6px;
 	float:right;
 	margin: 0px 45px 5px 10px;
 }
-.cdc2011_flyer{
-	background:url('img/cdc2011_flyer.jpg');
-	width:500px;
-	height:607px;
+.cdc_flyer{
+	background:url('img/cdc2012_flyer.jpg') no-repeat;
+	width:430px;
+	height:520px;
 	margin: 30px auto 20px auto;
 }
 .scholarships table{

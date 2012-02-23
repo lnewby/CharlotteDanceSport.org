@@ -15,7 +15,7 @@ get_header(); ?>
 			break;
 		case "detailed":
 			$filename = 'detailed_schedule.html';
-			$height='4270px';
+			$height='100%';//'4270px';
 			break;
 		case "officials":
 			$filename = 'officials.html';
@@ -27,7 +27,7 @@ get_header(); ?>
 			break;
 		case "housing":
 			$filename = 'housing.html';
-			$height='1110px';
+			$height='1155px';
 			break;
 		case "sponsors":
 			$filename = 'sponsors.html';
@@ -50,11 +50,11 @@ get_header(); ?>
         
     <? if( isset($filename) ) {
 			if($filename != "dance_locations.html") {
-				include 'cdc2011/'.$filename;
+				include 'cdc/'.$filename;
 			} else { ?>
 	<script>
 	$(document).ready( function() {
-		$('.cds_info_wrapper').append("<iframe src='http://"+document.domain+"/wp-content/themes/charlotte_dancesport/cdc2011/dance_location.html' frameborder='0' scrolling='yes' style='width:673px; height:1020px; border:0px;' >");
+		$('.cds_info_wrapper').append("<iframe src='http://"+document.domain+"/wp-content/themes/charlotte_dancesport/cdc/dance_location.html' frameborder='0' scrolling='yes' style='width:673px; height:1020px; border:0px;' >");
 	});
 	</script>
 	<?		}
@@ -132,7 +132,7 @@ get_header(); ?>
 	});
 	</script>
 <?			}
-		} else { include "cdc2011/main.php"; } ?>
+		} else { include "cdc/main.php"; } ?>
 
         </div>
     

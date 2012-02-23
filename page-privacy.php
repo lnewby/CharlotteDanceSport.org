@@ -21,7 +21,7 @@ get_header(); ?>
 <h2>Obtaining your consent</h2>
 <p>By using our Web site, you give 49er Social and Ballroom Dance Club permission to collect information about the pages served to you as an anonymous user for the purpose of calculating aggregate site statistics. If you register at 49er Social and Ballroom Dance Club, you authorize 49er Social and Ballroom Dance Club to use information you provide to personalize the information we deliver to you and to use your demographic information when calculating aggregate customer data. 49er Social and Ballroom Dance Club may occasionally amend this policy. We suggest that you bookmark this page and check to see if it has changed from time to time.</p>
 <h2>Questions?</h2>
-<p>If you wish to change any information you have given us, or have any questions on our Privacy Policy, please feel free to <a class="contactus cboxElement" href="<?php bloginfo('stylesheet_directory'); ?>/send_email.php">contact us</a> through our website.</p>
+<p>If you wish to change any information you have given us, or have any questions on our Privacy Policy, please feel free to <a class="contactus cboxElement" href="<?php bloginfo('stylesheet_directory'); ?>/send_email.php">contact us</a> via our website.</p>
 		</div>
 		</div>
 	</div>
